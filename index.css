@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+}
+
+.container-fluid{
+    min-height: 100vh;
+}
+.cmpnylogo{
+    width: 100px;
+    height: 80px;
+}
+#booknow{
+    background-color: red;
+}
+#bookcolor{
+    color: #ffffff;
+
+}
+.vidheight{
+
+    height: 300px;
+}
+.bg-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+}
+.para {
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remainingwords{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    /* width: 70%; */
+}
+.footerpara {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    /* background-color: black; */
+    color: #ffffff;
+}
+.footerword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color:#ffffff;
+    padding: 10px;
+    /* width: 30%; */
+}
